@@ -4,7 +4,7 @@ In the process, following the tutorial in [Medium](https://medium.com/@naomi.fri
 
 There ir neccesary see the environment where packages are installing. In windows with Anaconda it is possible looking in the GUI.
 
-When findpark is already installed, it is necessary to wrhite the path into findsspark.init()
+When findpark is already installed, it is necessary to wrhite the path into ```findspark.init()```
 
 ```python
 import findspark
