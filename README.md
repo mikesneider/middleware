@@ -10,3 +10,7 @@ When findpark is already installed, it is necessary to wrhite the path into ```f
 import findspark
 findspark.init('C:\spark\spark-3.0.0-preview2-bin-hadoop2.7')
 ```
+An exception will appear if I use Anaconda instead Python direcly. Then is necessary to install notebook an not use Anaconda.
+```python
+Exception: Java gateway process exited before sending the driver its port number
+```
