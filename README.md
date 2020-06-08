@@ -21,3 +21,5 @@ ImportError: cannot import name '__check_build' from partially initialized modul
 ```
 Apparntly (not 100% sure) it  happens when I install Python from Windows Store, instead directly.
 Some tutorials suggest to install the pakage from [diferent source](https://www.lfd.uci.edu/~gohlke/pythonlibs/#scikit-learn). It is necessary install the pakage  according to the version of Python, cp33 means CPython 3.3 ([source](https://stackoverflow.com/questions/28568070/filename-whl-is-not-supported-wheel-on-this-platform))
+
+Another change, is change the longpath in Registry on Windows (yes Windows), as [this answer](https://stackoverflow.com/questions/54778630/could-not-install-packages-due-to-an-environmenterror-errno-2-no-such-file-or) 
